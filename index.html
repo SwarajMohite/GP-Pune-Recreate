@@ -1,0 +1,267 @@
+<!DOCTYPE html5>
+<html lang="en">
+<head>
+    <title>Government Polytechnic Pune</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+       ul {
+    position: relative;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    border: 1px solid black;
+    padding: 0;
+    display: flex;
+    color: white !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 20px;
+}
+
+ul.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background: #f8f8f8;
+    color: black;
+}
+
+li:hover > ul.sub-menu {
+    display: block;
+}
+
+.sub-menu li a {
+    color: black;
+    background: #f8f8f8;
+}
+
+.sub-menu li a:hover {
+    background: #e0e0e0;
+}
+
+a:focus {
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+.nav-bar-main{
+    text-align: center;
+    
+    
+}
+
+.back{
+    background-color: hsl(48, 83%, 53%) !important;
+}
+    
+    </style>
+</head>
+<body style="margin-top:2px; background-color: hsl(48, 83%, 53%) ">
+    <div class="back">
+    <div class="header-container" style="background-color: #003a55">
+        <div class="logo-container">
+            <center>
+                <img src="img/logo.png" alt="Universe" style="height: 100px; margin-top:25px;">
+            </center>
+        </div>
+        <center>
+            <h1 style="color: white;" tabindex="0">Government Polytechnic Pune</h1>
+            <span style="color: white;">(An Autonomous Institute of Government of Maharashtra)</span>
+            <h2 style="color: white;" tabindex="0">शासकीय तंत्रनिकेतन, पुणे.</h2>
+            <span style="color: white;">(महाराष्ट्र शासनाची स्वायत्त संस्था)</span>
+        </center></br>
+        <div class="contact-info">
+            <center style="color:white;">
+                <div style="text-align: right; padding-right:15%; ">
+                    <button type="button" class="zoom-btn" id="zoomOut" tabindex="0">-A</button>
+                    <button type="button" class="zoom-btn" id="btnzoomNormal" tabindex="0">A</button>
+                    <button type="button" class="zoom-btn" id="zoomIn" tabindex="0">A+</button>
+                    <button type="button" class="lang-btn" id="selectLanguage" tabindex="0"><span><b>Select Language</b> | </span><span>▼</span></button>
+                </div></br>
+                <div class="phone-email">
+                    <i class="phone"></i> <span style="font-size: 13px;" tabindex="0">+91-020-25559200, 020-25559201 (Principal)</span>
+                    <br>
+                    <i class="envelope"></i> <span style="font-size: 13px;">principal@gppune.ac.in</span>
+                </div></br>
+                <div class="online-links">
+                    <a href="https://online.gppune.ac.in/gpp_s20/" target="_blank" style="color: white;" class="color_active"><b tabindex="0">Online GPP(MIS)</b></a>
+                    <br>
+                    <a href="https://online.gppune.ac.in/gpp_mis/" target="_blank" style="color: white;" class="color_active"><b tabindex="0">Online GPP MIS (120NEP)</b></a>
+                </div></br>
+                <div class="search">
+                    <form action="">
+                        <select id="dept" name="dept" tabindex="0" style="padding-left:90px; padding-right: 90px; padding-top: 9px; padding-bottom: 9px; font-size: medium; margin-bottom: 20px;">
+                            <option class="book-dropdown" value="" style=" text-align: left;">Search</option>
+                        </select>
+                    </form>
+                </div>
+            </center>
+        </div>
+    </div>
+<center>
+    <div class="nav-bar-main" role="navigation" style="margin-top: 0; background-color: #003a55; color: white; ">
+        <div class="nav-bar-main" role="navigation" style="margin-top: 0; ">
+        <nav class="main-navigation1 clearfix visible-md visible-lg" role="navigation">
+            <ul class="main_menu1 sf-menu sf-js-enabled sf-arrows" style="width: 100%;">
+                <li class="active"><a href="#" tabindex="1" aria-label="Home"><b>Home</b></a></li>
+                <li><a href="#" class="color_active sf-with-ul" tabindex="1" aria-label="About Institute"><b>About Institute</b><i class="fa fa-angle-down"></i></a>
+                    <ul class="sub-menu">
+                        <li><a href="#" class="color_active sf-with-ul" tabindex="1" aria-label="Institute">Institute<i class="fa fa-angle-down"></i></a>
+                            <ul>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="About Us">About Us</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Vision and Mission">Vision and Mission</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Principal's Message">Principal's Message</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Telephone Directory">Telephone Directory</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Mandatory Disclosure">Mandatory Disclosure</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="RTI">RTI</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Citizen Charter">Citizen Charter</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="color_active sf-with-ul" tabindex="1" aria-label="Governance/Committee">Governance/Committee<i class="fa fa-angle-down"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Governing Body">Governing Body</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Board Of Studies">Board Of Studies</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Anti-Ragging Committee">Anti-Ragging Committee</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Anti-Ragging squad Committee">Anti-Ragging squad Committee</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Online Grievance Redressal Committee/ICC">Online Grievance Redressal Committee/ICC</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Committee For SC/ST">Committee For SC/ST</a></li>
+                                <li><a href="#" class="color_active" tabindex="1" aria-label="Woman's Grievance Redressal Committee">Woman's Grievance Redressal Committee</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" class="color_active" tabindex="1" aria-label="Organization Structure">Organization Structure</a></li>
+                        <li><a href="#" class="color_active" tabindex="1" aria-label="Office and Administration">Office and Administration</a></li>
+                        <li><a href="#" class="color_active" tabindex="1" aria-label="Photo Gallery">Photo Gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tabindex="1" aria-label="Admission"><b>Admission</b></a>
+                    <ul class="sub-menu">
+                        <li><a href="#" tabindex="1" aria-label="Diploma">Diploma</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Newly Admitted Student Fee Payment" target="_blank">Newly Admitted Student Fee Payment</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Minority Special Division" target="_blank">Minority Special Division</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tabindex="1" aria-label="Academics"><b>Academics</b></a>
+                    <ul class="sub-menu">
+                        <li><a href="#" tabindex="1" aria-label="Departments">Departments</a>
+                            <ul class="sub-menu">
+                                <li><a href="#" tabindex="1" aria-label="Civil Engineering">Civil Engineering</a></li>
+                                <li><a href="#" tabindex="1" aria-label="Computer Engineering">Computer Engineering</a></li>
+                                <li><a href="#" tabindex="1" aria-label="Electrical Engineering">Electrical Engineering</a></li>
+                                <li><a href="#" tabindex="1" aria-label="Information Technology">Information Technology</a></li>
+                                <li><a href="#" tabindex="1" aria-label="Instrumentation Engineering">Instrumentation Engineering</a></li>
+                                <li><a href="#" tabindex="1" aria-label="Mechanical Engineering">Mechanical Engineering</a></li>
+                                <li><a href="#" tabindex="1" aria-label="Metallurgy Engineering">Metallurgy Engineering</a></li>
+                                <li><a href="#" tabindex="1" aria-label="Production Engineering">Production Engineering</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#" tabindex="1" aria-label="Academic Calendar">Academic Calendar</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Time Table">Time Table</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Examination">Examination</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Online Learning/Technical Event">Online Learning/Technical Event</a></li>
+                        <li><a href="#" tabindex="1" aria-label="News and Event">News and Event</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Library">Library</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tabindex="1" aria-label="Training and Placement"><b>Training and Placement</b></a>
+                    <ul class="sub-menu">
+                        <li><a href="#" tabindex="1" aria-label="Placement cell">Placement cell</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Internship">Internship</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Placement Records">Placement Records</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tabindex="1" aria-label="Hostel"><b>Hostel</b></a></li>
+                <li><a href="#" tabindex="1" aria-label="Student Section"><b>Student Section</b></a></li>
+                <li><a href="#" tabindex="1" aria-label="R and D"><b>R and D</b></a>
+                    <ul class="sub-menu">
+                        <li><a href="#" tabindex="1" aria-label="R and D Cell">R and D Cell</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Research Projects">Research Projects</a></li>
+                        <li><a href="#" tabindex="1" aria-label="R and D Policy">R and D Policy</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tabindex="1" aria-label="Industry/Alumni"><b>Industry/Alumni</b></a>
+                    <ul class="sub-menu">
+                        <li><a href="#" tabindex="1" aria-label="Industry Cell">Industry Cell</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Testing and Consultancy">Testing and Consultancy</a></li>
+                        <li><a href="#" tabindex="1" aria-label="Alumni">Alumni</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" tabindex="1" aria-label="Contact Us"><b>Contact Us</b></a></li>
+                <li><a href="#" tabindex="1" aria-label="Login"><b>Login</b></a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+</div> 
+</center>
+
+	<div class="container" style="margin-top:11px; margin-left: 15px; margin-right: 15px; background-color: grey;">
+		<div class="row margin_about">
+			<!-- Here begin Main Content -->
+			<div class="col-md-12 cards">
+				<div>
+					<div class="card-body px-0"
+						style="padding-top: 0px; padding-bottom: 0px; background-color: white; border: 3px solid #457197;">
+						<form class="request-info clearfix" style="margin-top: 1px;">
+							<div class="widget-item" style="margin-top: 5px;">
+								<div class="widget-main-title"
+									style="padding-bottom: 0px; padding-top: 2px;">
+									<h1 class="welcome-text1"
+										style="color: #004884; text-align: Center;"  tabindex="0" aria-label="About Us">About Us</h1>
+								</div>
+								<div class="widget-inner">
+									<p>
+									<hr style="width:85%;">
+									
+									<div
+										style="font-family: Times New Roman, Times, serif; text-align: justify; padding:9px">
+										<font size='4px'>Government Polytechnic, Pune, an autonomous
+											institute of Government of Maharashtra is established in the
+											year 1957. Institute is awarded academic autonomy in May
+											1994. It houses in its 28 acre campus: main building,
+											Computer Engineering, Information Technology and Science
+											department building, Electronics and DDGM department
+											building, staff quarters, workshop building, exam section
+											building, conference halls, hostels, classrooms for various
+											disciplines, library, canteen, mess, post office, cooperative
+											stores, etc.</font>
+									</div>
+									<br>
+									<div
+										style="font-family: Times New Roman, Times, serif; text-align: justify; padding:9px;">
+										<font size='4px'> Over the last four decades, several thousand
+											diploma engineers passed out from various disciplines are
+											contributing their expertise for industries and various
+											Government departments. Institute has won several prestigious
+											awards in academics as well as socio-cultural activities.
+											Overall, contribution of this institute in technical
+											education of country and development of a progressive society
+											is significant.</font>
+									</div>
+
+
+									</p>
+
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<!-- /.widget-item -->
+			</div>
+			<!-- /.col-md-12 -->
+		</div>
+	</div>
+</body>
+</html>
